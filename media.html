@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="media.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <style>
+            .responsive-img {
+                width: 300 ;
+                height: 250;
+            }
+        </style>
+    </header>
+   <ul>
+    <picture>
+        <source media="min-width":650px srcset="img1.jpg">
+        <source media="min-width":650px srcset="img2.jpg">
+        <source media="min-width":650px srcset="img3.jpg">
+        <li> <img src="Assets/img1.jpg" alt="responsive-img" class="responsive-img"></li>
+    </picture>
+
+    <li> <video controls width="300" height="250"> 
+
+        <source src="Assets/video.mp4" type="video/mp4"/>
+        </li>
+             </video>
+
+             <li>
+                <audio controls src="Assets/audio-file.mp3">
+                    <source src="audio-file.mp3" type="audio/mpeg">       
+                  </audio>
+                  
+             </li>
+           
+   </ul>
+</body>
+</html>
